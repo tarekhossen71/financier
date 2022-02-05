@@ -1,0 +1,35 @@
+$('.portfolio-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    navText: [
+        'Prev',
+        'Next'
+    ],
+    responsive:{
+        0:{
+            items:1
+        },
+        768:{
+            items:3
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+
+$('.testimonial-1').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
